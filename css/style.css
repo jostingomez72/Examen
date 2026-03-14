@@ -1,4 +1,4 @@
-/* ─── RESET & VARIABLES ─── */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -6,13 +6,13 @@
 }
 
 :root {
-  --yellow: #C9A84C;       /* dorado premium */
-  --dark: #2E1A47;         /* morado oscuro */
-  --gray-bg: #f5f3f8;      /* fondo lila muy suave */
+  --yellow: #C9A84C;       
+  --dark: #2E1A47;        
+  --gray-bg: #f5f3f8;     
   --text: #2E1A47;
-  --footer-bg: #1C0F2E;    /* morado muy oscuro */
+  --footer-bg: #1C0F2E;    
   --white: #fff;
-  --accent: #7B2FBE;       /* morado medio */
+  --accent: #7B2FBE;       
 }
 
 body {
@@ -26,7 +26,7 @@ a {
   color: inherit;
 }
 
-/* ─── TOP BAR ─── */
+
 .top-bar {
   background: var(--white);
   padding: 10px 40px;
@@ -87,7 +87,7 @@ a {
   color: var(--accent);
 }
 
-/* ─── NAV ─── */
+
 nav {
   background: var(--dark);
   display: flex;
@@ -151,7 +151,7 @@ nav {
   font-weight: 700;
 }
 
-/* ─── HERO ─── */
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -303,7 +303,7 @@ nav {
   opacity: .85;
 }
 
-/* ─── FEATURES ─── */
+
 .features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -340,7 +340,7 @@ nav {
   color: #888;
 }
 
-/* ─── SECTION TITLE ─── */
+
 .section-title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 26px;
@@ -353,7 +353,7 @@ nav {
   margin-bottom: 24px;
 }
 
-/* ─── CATEGORIES ─── */
+
 .categories {
   padding: 30px 40px;
   background: var(--gray-bg);
@@ -395,7 +395,7 @@ nav {
   color: #888;
 }
 
-/* ─── PRODUCTS ─── */
+
 .products {
   padding: 30px 40px;
   background: var(--white);
@@ -469,7 +469,7 @@ nav {
   font-size: 12px;
 }
 
-/* ─── FOOTER ─── */
+
 footer {
   background: var(--footer-bg);
   color: #c9b8e8;
